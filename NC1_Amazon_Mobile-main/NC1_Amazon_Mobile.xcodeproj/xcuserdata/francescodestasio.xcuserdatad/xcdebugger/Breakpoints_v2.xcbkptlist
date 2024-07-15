@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "FADD7E7A-1402-4A95-9918-45D6271B4EF9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4DB9C921-2AE2-422E-8022-E58F35B3F277"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NC1_Amazon_Mobile/GameScene.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "startIdleAnimation()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "840278C8-A62C-485E-BABF-7AEAE3191C61"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NC1_Amazon_Mobile/Views/DashBoard/Dashboard.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "840278C8-A62C-485E-BABF-7AEAE3191C61 - bd4ee6ea9ad4d4c2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NC1_Amazon_Mobile.Dashboard.body.getter : some"
+                  moduleName = "NC1_Amazon_Mobile"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/francescodestasio/Documents/GitHub/NC1_Amazon_Mobile/NC1_Amazon_Mobile/Views/DashBoard/Dashboard.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "232">
+               </Location>
+               <Location
+                  uuid = "840278C8-A62C-485E-BABF-7AEAE3191C61 - 31ad63f096fa6867"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.navigationBarTitleDisplayMode(SwiftUI.NavigationBarItem.TitleDisplayMode) -&gt; some&gt;&gt;.0 in NC1_Amazon_Mobile.Dashboard.body.getter : some"
+                  moduleName = "NC1_Amazon_Mobile"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/francescodestasio/Documents/GitHub/NC1_Amazon_Mobile/NC1_Amazon_Mobile/Views/DashBoard/Dashboard.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "564">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

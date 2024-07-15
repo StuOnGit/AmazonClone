@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		911039CC2928DA8E00247B81 /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911039CB2928DA8E00247B81 /* CustomColors.swift */; };
+		911039CF2928E53500247B81 /* AmazonSeleableItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911039CE2928E53500247B81 /* AmazonSeleableItem.swift */; };
+		911039D12928FE6B00247B81 /* Amazon_shipper.gif in Resources */ = {isa = PBXBuildFile; fileRef = 911039D02928FE6B00247B81 /* Amazon_shipper.gif */; };
+		911039EF2929017400247B81 /* Amazon_shipper11.png in Resources */ = {isa = PBXBuildFile; fileRef = 911039D62929017400247B81 /* Amazon_shipper11.png */; };
+		911039F02929017400247B81 /* Amazon_shipper18.png in Resources */ = {isa = PBXBuildFile; fileRef = 911039D72929017400247B81 /* Amazon_shipper18.png */; };
+		911039F12929017400247B81 /* Amazon_shipper9.png in Resources */ = {isa = PBXBuildFile; fileRef = 911039D82929017400247B81 /* Amazon_shipper9.png */; };
+		911039F22929017400247B81 /* Amazon_shipper10.png in Resources */ = {isa = PBXBuildFile; fileRef = 911039D92929017400247B81 /* Amazon_shipper10.png */; };
+		911039F32929017400247B81 /* Amazon_shipper3.png in Resources */ = {isa = PBXBuildFile; fileRef = 911039DA2929017400247B81 /* Amazon_shipper3.png */; };
+		911039F42929017400247B81 /* Amazon_shipper4.png in Resources */ = {isa = PBXBuildFile; fileRef = 911039DB2929017400247B81 /* Amazon_shipper4.png */; };
+		911039F52929017400247B81 /* Amazon_shipper2.png in Resources */ = {isa = PBXBuildFile; fileRef = 911039DC2929017400247B81 /* Amazon_shipper2.png */; };
+		911039F62929017400247B81 /* Amazon_shipper22.png in Resources */ = {isa = PBXBuildFile; fileRef = 911039DD2929017400247B81 /* Amazon_shipper22.png */; };
+		911039F72929017400247B81 /* Amazon_shipper5.png in Resources */ = {isa = PBXBuildFile; fileRef = 911039DE2929017400247B81 /* Amazon_shipper5.png */; };
+		911039F82929017400247B81 /* Amazon_shipper14.png in Resources */ = {isa = PBXBuildFile; fileRef = 911039DF2929017400247B81 /* Amazon_shipper14.png */; };
+		911039F92929017400247B81 /* Amazon_shipper12.png in Resources */ = {isa = PBXBuildFile; fileRef = 911039E02929017400247B81 /* Amazon_shipper12.png */; };
+		911039FA2929017400247B81 /* Amazon_shipper6.png in Resources */ = {isa = PBXBuildFile; fileRef = 911039E12929017400247B81 /* Amazon_shipper6.png */; };
+		911039FB2929017400247B81 /* Amazon_shipper17.png in Resources */ = {isa = PBXBuildFile; fileRef = 911039E22929017400247B81 /* Amazon_shipper17.png */; };
+		911039FC2929017400247B81 /* Amazon_shipper15.png in Resources */ = {isa = PBXBuildFile; fileRef = 911039E32929017400247B81 /* Amazon_shipper15.png */; };
+		911039FD2929017400247B81 /* Amazon_shipper8.png in Resources */ = {isa = PBXBuildFile; fileRef = 911039E42929017400247B81 /* Amazon_shipper8.png */; };
+		911039FE2929017400247B81 /* Amazon_shipper16.png in Resources */ = {isa = PBXBuildFile; fileRef = 911039E52929017400247B81 /* Amazon_shipper16.png */; };
+		911039FF2929017400247B81 /* Amazon_shipper19.png in Resources */ = {isa = PBXBuildFile; fileRef = 911039E62929017400247B81 /* Amazon_shipper19.png */; };
+		91103A002929017400247B81 /* Amazon_shipper21.png in Resources */ = {isa = PBXBuildFile; fileRef = 911039E72929017400247B81 /* Amazon_shipper21.png */; };
+		91103A012929017400247B81 /* Amazon_shipper7.png in Resources */ = {isa = PBXBuildFile; fileRef = 911039E82929017400247B81 /* Amazon_shipper7.png */; };
+		91103A022929017400247B81 /* Amazon_shipper23.png in Resources */ = {isa = PBXBuildFile; fileRef = 911039E92929017400247B81 /* Amazon_shipper23.png */; };
+		91103A032929017400247B81 /* Amazon_shipper13.png in Resources */ = {isa = PBXBuildFile; fileRef = 911039EA2929017400247B81 /* Amazon_shipper13.png */; };
+		91103A042929017400247B81 /* Amazon_shipper25.png in Resources */ = {isa = PBXBuildFile; fileRef = 911039EB2929017400247B81 /* Amazon_shipper25.png */; };
+		91103A052929017400247B81 /* Amazon_shipper1.png in Resources */ = {isa = PBXBuildFile; fileRef = 911039EC2929017400247B81 /* Amazon_shipper1.png */; };
+		91103A062929017400247B81 /* Amazon_shipper20.png in Resources */ = {isa = PBXBuildFile; fileRef = 911039ED2929017400247B81 /* Amazon_shipper20.png */; };
+		91103A072929017400247B81 /* Amazon_shipper24.png in Resources */ = {isa = PBXBuildFile; fileRef = 911039EE2929017400247B81 /* Amazon_shipper24.png */; };
+		91103A09292910DE00247B81 /* ShipperScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91103A08292910DE00247B81 /* ShipperScene.swift */; };
+		911E2B0E292BBA92009701EB /* AmazonItemDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911E2B0D292BBA92009701EB /* AmazonItemDB.swift */; };
+		9129101B292CF04900C83999 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9129101A292CF04900C83999 /* Search.swift */; };
+		917150392924D17D005DB541 /* CoreModels.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 917150372924D17D005DB541 /* CoreModels.xcdatamodeld */; };
+		9171503B2924D306005DB541 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9171503A2924D306005DB541 /* DataController.swift */; };
+		9186C533292D74CD00E4848A /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9186C532292D74CD00E4848A /* ItemDetail.swift */; };
+		9186C536292E58F000E4848A /* ItemModelJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9186C535292E58F000E4848A /* ItemModelJSON.swift */; };
+		918AF298292536DA00C31A04 /* BuyElementCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918AF297292536DA00C31A04 /* BuyElementCard.swift */; };
+		918AF29E29256AB200C31A04 /* OffertElementCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918AF29D29256AB200C31A04 /* OffertElementCard.swift */; };
+		918AF2A2292594AB00C31A04 /* SearchObservableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918AF2A1292594AB00C31A04 /* SearchObservableObject.swift */; };
+		91D5964D29251CC3007C2494 /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D5964C29251CC3007C2494 /* Dashboard.swift */; };
+		91D5964F292521E3007C2494 /* CartList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D5964E292521E3007C2494 /* CartList.swift */; };
+		91D5965129252B54007C2494 /* CartElementCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D5965029252B54007C2494 /* CartElementCard.swift */; };
+		91EC0ECA2926902700101329 /* CreateAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EC0EC92926902700101329 /* CreateAlertView.swift */; };
+		91EC0ECC2926930300101329 /* AlertElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EC0ECB2926930300101329 /* AlertElementView.swift */; };
+		91EC0ECE292693E000101329 /* BestSellerMenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EC0ECD292693E000101329 /* BestSellerMenView.swift */; };
+		91EC0ED02926948700101329 /* ExploreMoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EC0ECF2926948700101329 /* ExploreMoreView.swift */; };
+		91EC0ED2292694E600101329 /* SuggestedOffertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EC0ED1292694E600101329 /* SuggestedOffertsView.swift */; };
+		91EC0ED42926953700101329 /* SuggestedElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EC0ED32926953700101329 /* SuggestedElementView.swift */; };
+		91EC0ED82926966200101329 /* BestSellerWomenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EC0ED72926966200101329 /* BestSellerWomenView.swift */; };
+		91EC0EDD2926970200101329 /* TopOffertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EC0EDC2926970200101329 /* TopOffertView.swift */; };
+		91EC0EDF2926974100101329 /* OffertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EC0EDE2926974100101329 /* OffertView.swift */; };
+		91EC0EE12926975D00101329 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91EC0EE02926975D00101329 /* MainScreenView.swift */; };
+		91FFD8262923C8C00000B3FA /* NC1_Amazon_MobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FFD8252923C8C00000B3FA /* NC1_Amazon_MobileApp.swift */; };
+		91FFD8282923C8C00000B3FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FFD8272923C8C00000B3FA /* ContentView.swift */; };
+		91FFD82A2923C8C10000B3FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91FFD8292923C8C10000B3FA /* Assets.xcassets */; };
+		91FFD82D2923C8C10000B3FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91FFD82C2923C8C10000B3FA /* Preview Assets.xcassets */; };
+		91FFD8342923D9B90000B3FA /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FFD8332923D9B90000B3FA /* Cart.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		911039CB2928DA8E00247B81 /* CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
+		911039CE2928E53500247B81 /* AmazonSeleableItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonSeleableItem.swift; sourceTree = "<group>"; };
+		911039D02928FE6B00247B81 /* Amazon_shipper.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Amazon_shipper.gif; path = NC1_Amazon_Mobile/Animations/Amazon_Shipper/Amazon_shipper.gif; sourceTree = SOURCE_ROOT; };
+		911039D62929017400247B81 /* Amazon_shipper11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Amazon_shipper11.png; path = "Pixel Art/Amazon_shipper11.png"; sourceTree = SOURCE_ROOT; };
+		911039D72929017400247B81 /* Amazon_shipper18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Amazon_shipper18.png; path = "Pixel Art/Amazon_shipper18.png"; sourceTree = SOURCE_ROOT; };
+		911039D82929017400247B81 /* Amazon_shipper9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Amazon_shipper9.png; path = "Pixel Art/Amazon_shipper9.png"; sourceTree = SOURCE_ROOT; };
+		911039D92929017400247B81 /* Amazon_shipper10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Amazon_shipper10.png; path = "Pixel Art/Amazon_shipper10.png"; sourceTree = SOURCE_ROOT; };
+		911039DA2929017400247B81 /* Amazon_shipper3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Amazon_shipper3.png; path = "Pixel Art/Amazon_shipper3.png"; sourceTree = SOURCE_ROOT; };
+		911039DB2929017400247B81 /* Amazon_shipper4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Amazon_shipper4.png; path = "Pixel Art/Amazon_shipper4.png"; sourceTree = SOURCE_ROOT; };
+		911039DC2929017400247B81 /* Amazon_shipper2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Amazon_shipper2.png; path = "Pixel Art/Amazon_shipper2.png"; sourceTree = SOURCE_ROOT; };
+		911039DD2929017400247B81 /* Amazon_shipper22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Amazon_shipper22.png; path = "Pixel Art/Amazon_shipper22.png"; sourceTree = SOURCE_ROOT; };
+		911039DE2929017400247B81 /* Amazon_shipper5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Amazon_shipper5.png; path = "Pixel Art/Amazon_shipper5.png"; sourceTree = SOURCE_ROOT; };
+		911039DF2929017400247B81 /* Amazon_shipper14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Amazon_shipper14.png; path = "Pixel Art/Amazon_shipper14.png"; sourceTree = SOURCE_ROOT; };
+		911039E02929017400247B81 /* Amazon_shipper12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Amazon_shipper12.png; path = "Pixel Art/Amazon_shipper12.png"; sourceTree = SOURCE_ROOT; };
+		911039E12929017400247B81 /* Amazon_shipper6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Amazon_shipper6.png; path = "Pixel Art/Amazon_shipper6.png"; sourceTree = SOURCE_ROOT; };
+		911039E22929017400247B81 /* Amazon_shipper17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Amazon_shipper17.png; path = "Pixel Art/Amazon_shipper17.png"; sourceTree = SOURCE_ROOT; };
+		911039E32929017400247B81 /* Amazon_shipper15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Amazon_shipper15.png; path = "Pixel Art/Amazon_shipper15.png"; sourceTree = SOURCE_ROOT; };
+		911039E42929017400247B81 /* Amazon_shipper8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Amazon_shipper8.png; path = "Pixel Art/Amazon_shipper8.png"; sourceTree = SOURCE_ROOT; };
+		911039E52929017400247B81 /* Amazon_shipper16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Amazon_shipper16.png; path = "Pixel Art/Amazon_shipper16.png"; sourceTree = SOURCE_ROOT; };
+		911039E62929017400247B81 /* Amazon_shipper19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Amazon_shipper19.png; path = "Pixel Art/Amazon_shipper19.png"; sourceTree = SOURCE_ROOT; };
+		911039E72929017400247B81 /* Amazon_shipper21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Amazon_shipper21.png; path = "Pixel Art/Amazon_shipper21.png"; sourceTree = SOURCE_ROOT; };
+		911039E82929017400247B81 /* Amazon_shipper7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Amazon_shipper7.png; path = "Pixel Art/Amazon_shipper7.png"; sourceTree = SOURCE_ROOT; };
+		911039E92929017400247B81 /* Amazon_shipper23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Amazon_shipper23.png; path = "Pixel Art/Amazon_shipper23.png"; sourceTree = SOURCE_ROOT; };
+		911039EA2929017400247B81 /* Amazon_shipper13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Amazon_shipper13.png; path = "Pixel Art/Amazon_shipper13.png"; sourceTree = SOURCE_ROOT; };
+		911039EB2929017400247B81 /* Amazon_shipper25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Amazon_shipper25.png; path = "Pixel Art/Amazon_shipper25.png"; sourceTree = SOURCE_ROOT; };
+		911039EC2929017400247B81 /* Amazon_shipper1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Amazon_shipper1.png; path = "Pixel Art/Amazon_shipper1.png"; sourceTree = SOURCE_ROOT; };
+		911039ED2929017400247B81 /* Amazon_shipper20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Amazon_shipper20.png; path = "Pixel Art/Amazon_shipper20.png"; sourceTree = SOURCE_ROOT; };
+		911039EE2929017400247B81 /* Amazon_shipper24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Amazon_shipper24.png; path = "Pixel Art/Amazon_shipper24.png"; sourceTree = SOURCE_ROOT; };
+		91103A08292910DE00247B81 /* ShipperScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipperScene.swift; sourceTree = "<group>"; };
+		911E2B0D292BBA92009701EB /* AmazonItemDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmazonItemDB.swift; sourceTree = "<group>"; };
+		9129101A292CF04900C83999 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		917150382924D17D005DB541 /* CoreModels.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreModels.xcdatamodel; sourceTree = "<group>"; };
+		9171503A2924D306005DB541 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		9186C532292D74CD00E4848A /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		9186C535292E58F000E4848A /* ItemModelJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModelJSON.swift; sourceTree = "<group>"; };
+		918AF297292536DA00C31A04 /* BuyElementCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyElementCard.swift; sourceTree = "<group>"; };
+		918AF29D29256AB200C31A04 /* OffertElementCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffertElementCard.swift; sourceTree = "<group>"; };
+		918AF2A1292594AB00C31A04 /* SearchObservableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchObservableObject.swift; sourceTree = "<group>"; };
+		91D5964C29251CC3007C2494 /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		91D5964E292521E3007C2494 /* CartList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartList.swift; sourceTree = "<group>"; };
+		91D5965029252B54007C2494 /* CartElementCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartElementCard.swift; sourceTree = "<group>"; };
+		91EC0EC92926902700101329 /* CreateAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAlertView.swift; sourceTree = "<group>"; };
+		91EC0ECB2926930300101329 /* AlertElementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertElementView.swift; sourceTree = "<group>"; };
+		91EC0ECD292693E000101329 /* BestSellerMenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSellerMenView.swift; sourceTree = "<group>"; };
+		91EC0ECF2926948700101329 /* ExploreMoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreMoreView.swift; sourceTree = "<group>"; };
+		91EC0ED1292694E600101329 /* SuggestedOffertsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestedOffertsView.swift; sourceTree = "<group>"; };
+		91EC0ED32926953700101329 /* SuggestedElementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestedElementView.swift; sourceTree = "<group>"; };
+		91EC0ED72926966200101329 /* BestSellerWomenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestSellerWomenView.swift; sourceTree = "<group>"; };
+		91EC0EDC2926970200101329 /* TopOffertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopOffertView.swift; sourceTree = "<group>"; };
+		91EC0EDE2926974100101329 /* OffertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffertView.swift; sourceTree = "<group>"; };
+		91EC0EE02926975D00101329 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		91FFD8222923C8C00000B3FA /* NC1_Amazon_Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NC1_Amazon_Mobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FFD8252923C8C00000B3FA /* NC1_Amazon_MobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NC1_Amazon_MobileApp.swift; sourceTree = "<group>"; };
+		91FFD8272923C8C00000B3FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		91FFD8292923C8C10000B3FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91FFD82C2923C8C10000B3FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91FFD8332923D9B90000B3FA /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91FFD81F2923C8C00000B3FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		911039CA2928DA7E00247B81 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				911039CB2928DA8E00247B81 /* CustomColors.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		911039CD2928E4CC00247B81 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				911039CE2928E53500247B81 /* AmazonSeleableItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		911039D2292900CD00247B81 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				911039D3292900D600247B81 /* Amazon_Shipper */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		911039D3292900D600247B81 /* Amazon_Shipper */ = {
+			isa = PBXGroup;
+			children = (
+				911039D02928FE6B00247B81 /* Amazon_shipper.gif */,
+				911039EC2929017400247B81 /* Amazon_shipper1.png */,
+				911039DC2929017400247B81 /* Amazon_shipper2.png */,
+				911039DA2929017400247B81 /* Amazon_shipper3.png */,
+				911039DB2929017400247B81 /* Amazon_shipper4.png */,
+				911039DE2929017400247B81 /* Amazon_shipper5.png */,
+				911039E12929017400247B81 /* Amazon_shipper6.png */,
+				911039E82929017400247B81 /* Amazon_shipper7.png */,
+				911039E42929017400247B81 /* Amazon_shipper8.png */,
+				911039D82929017400247B81 /* Amazon_shipper9.png */,
+				911039D92929017400247B81 /* Amazon_shipper10.png */,
+				911039D62929017400247B81 /* Amazon_shipper11.png */,
+				911039E02929017400247B81 /* Amazon_shipper12.png */,
+				911039EA2929017400247B81 /* Amazon_shipper13.png */,
+				911039DF2929017400247B81 /* Amazon_shipper14.png */,
+				911039E32929017400247B81 /* Amazon_shipper15.png */,
+				911039E52929017400247B81 /* Amazon_shipper16.png */,
+				911039E22929017400247B81 /* Amazon_shipper17.png */,
+				911039D72929017400247B81 /* Amazon_shipper18.png */,
+				911039E62929017400247B81 /* Amazon_shipper19.png */,
+				911039ED2929017400247B81 /* Amazon_shipper20.png */,
+				911039E72929017400247B81 /* Amazon_shipper21.png */,
+				911039DD2929017400247B81 /* Amazon_shipper22.png */,
+				911039E92929017400247B81 /* Amazon_shipper23.png */,
+				911039EE2929017400247B81 /* Amazon_shipper24.png */,
+				911039EB2929017400247B81 /* Amazon_shipper25.png */,
+			);
+			path = Amazon_Shipper;
+			sourceTree = "<group>";
+		};
+		91291019292CF01900C83999 /* Searching */ = {
+			isa = PBXGroup;
+			children = (
+				9129101A292CF04900C83999 /* Search.swift */,
+			);
+			path = Searching;
+			sourceTree = "<group>";
+		};
+		9186C531292D74B100E4848A /* ItemDetail */ = {
+			isa = PBXGroup;
+			children = (
+				9186C532292D74CD00E4848A /* ItemDetail.swift */,
+			);
+			path = ItemDetail;
+			sourceTree = "<group>";
+		};
+		9186C534292E58DB00E4848A /* ModelJSON */ = {
+			isa = PBXGroup;
+			children = (
+				9186C535292E58F000E4848A /* ItemModelJSON.swift */,
+			);
+			path = ModelJSON;
+			sourceTree = "<group>";
+		};
+		918AF29B2925667600C31A04 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9186C531292D74B100E4848A /* ItemDetail */,
+				91291019292CF01900C83999 /* Searching */,
+				911039CD2928E4CC00247B81 /* Models */,
+				911039CA2928DA7E00247B81 /* Utils */,
+				91EC0EE2292698D400101329 /* Cart */,
+				91EC0EC82926900200101329 /* DashBoard */,
+				918AF29C2925669B00C31A04 /* Cards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		918AF29C2925669B00C31A04 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				91D5965029252B54007C2494 /* CartElementCard.swift */,
+				918AF297292536DA00C31A04 /* BuyElementCard.swift */,
+				918AF29D29256AB200C31A04 /* OffertElementCard.swift */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+		91EC0EC82926900200101329 /* DashBoard */ = {
+			isa = PBXGroup;
+			children = (
+				91D5964C29251CC3007C2494 /* Dashboard.swift */,
+				91EC0ECD292693E000101329 /* BestSellerMenView.swift */,
+				91EC0EC92926902700101329 /* CreateAlertView.swift */,
+				91EC0ECB2926930300101329 /* AlertElementView.swift */,
+				91EC0ECF2926948700101329 /* ExploreMoreView.swift */,
+				91EC0ED1292694E600101329 /* SuggestedOffertsView.swift */,
+				91EC0ED32926953700101329 /* SuggestedElementView.swift */,
+				91EC0ED72926966200101329 /* BestSellerWomenView.swift */,
+				91EC0EDC2926970200101329 /* TopOffertView.swift */,
+				91EC0EDE2926974100101329 /* OffertView.swift */,
+				91EC0EE02926975D00101329 /* MainScreenView.swift */,
+			);
+			path = DashBoard;
+			sourceTree = "<group>";
+		};
+		91EC0EE2292698D400101329 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				91FFD8332923D9B90000B3FA /* Cart.swift */,
+				91D5964E292521E3007C2494 /* CartList.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		91FFD8192923C8C00000B3FA = {
+			isa = PBXGroup;
+			children = (
+				91FFD8242923C8C00000B3FA /* NC1_Amazon_Mobile */,
+				91FFD8232923C8C00000B3FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91FFD8232923C8C00000B3FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91FFD8222923C8C00000B3FA /* NC1_Amazon_Mobile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91FFD8242923C8C00000B3FA /* NC1_Amazon_Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				9186C534292E58DB00E4848A /* ModelJSON */,
+				911039D2292900CD00247B81 /* Animations */,
+				918AF29B2925667600C31A04 /* Views */,
+				91FFD8252923C8C00000B3FA /* NC1_Amazon_MobileApp.swift */,
+				91FFD8272923C8C00000B3FA /* ContentView.swift */,
+				91FFD8292923C8C10000B3FA /* Assets.xcassets */,
+				91FFD82B2923C8C10000B3FA /* Preview Content */,
+				917150372924D17D005DB541 /* CoreModels.xcdatamodeld */,
+				9171503A2924D306005DB541 /* DataController.swift */,
+				918AF2A1292594AB00C31A04 /* SearchObservableObject.swift */,
+				91103A08292910DE00247B81 /* ShipperScene.swift */,
+				911E2B0D292BBA92009701EB /* AmazonItemDB.swift */,
+			);
+			path = NC1_Amazon_Mobile;
+			sourceTree = "<group>";
+		};
+		91FFD82B2923C8C10000B3FA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				91FFD82C2923C8C10000B3FA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91FFD8212923C8C00000B3FA /* NC1_Amazon_Mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91FFD8302923C8C10000B3FA /* Build configuration list for PBXNativeTarget "NC1_Amazon_Mobile" */;
+			buildPhases = (
+				91FFD81E2923C8C00000B3FA /* Sources */,
+				91FFD81F2923C8C00000B3FA /* Frameworks */,
+				91FFD8202923C8C00000B3FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NC1_Amazon_Mobile;
+			productName = NC1_Amazon_Mobile;
+			productReference = 91FFD8222923C8C00000B3FA /* NC1_Amazon_Mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91FFD81A2923C8C00000B3FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					91FFD8212923C8C00000B3FA = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 91FFD81D2923C8C00000B3FA /* Build configuration list for PBXProject "NC1_Amazon_Mobile" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91FFD8192923C8C00000B3FA;
+			productRefGroup = 91FFD8232923C8C00000B3FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91FFD8212923C8C00000B3FA /* NC1_Amazon_Mobile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91FFD8202923C8C00000B3FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91FFD82D2923C8C10000B3FA /* Preview Assets.xcassets in Resources */,
+				911039F32929017400247B81 /* Amazon_shipper3.png in Resources */,
+				911039F82929017400247B81 /* Amazon_shipper14.png in Resources */,
+				911039F52929017400247B81 /* Amazon_shipper2.png in Resources */,
+				911039FC2929017400247B81 /* Amazon_shipper15.png in Resources */,
+				91103A022929017400247B81 /* Amazon_shipper23.png in Resources */,
+				911039F92929017400247B81 /* Amazon_shipper12.png in Resources */,
+				911039F42929017400247B81 /* Amazon_shipper4.png in Resources */,
+				91103A012929017400247B81 /* Amazon_shipper7.png in Resources */,
+				911039FE2929017400247B81 /* Amazon_shipper16.png in Resources */,
+				911039EF2929017400247B81 /* Amazon_shipper11.png in Resources */,
+				91103A062929017400247B81 /* Amazon_shipper20.png in Resources */,
+				91103A032929017400247B81 /* Amazon_shipper13.png in Resources */,
+				91FFD82A2923C8C10000B3FA /* Assets.xcassets in Resources */,
+				911039FA2929017400247B81 /* Amazon_shipper6.png in Resources */,
+				911039F22929017400247B81 /* Amazon_shipper10.png in Resources */,
+				911039F02929017400247B81 /* Amazon_shipper18.png in Resources */,
+				911039FF2929017400247B81 /* Amazon_shipper19.png in Resources */,
+				911039F62929017400247B81 /* Amazon_shipper22.png in Resources */,
+				91103A042929017400247B81 /* Amazon_shipper25.png in Resources */,
+				91103A052929017400247B81 /* Amazon_shipper1.png in Resources */,
+				911039D12928FE6B00247B81 /* Amazon_shipper.gif in Resources */,
+				911039FD2929017400247B81 /* Amazon_shipper8.png in Resources */,
+				911039F12929017400247B81 /* Amazon_shipper9.png in Resources */,
+				911039F72929017400247B81 /* Amazon_shipper5.png in Resources */,
+				91103A072929017400247B81 /* Amazon_shipper24.png in Resources */,
+				911039FB2929017400247B81 /* Amazon_shipper17.png in Resources */,
+				91103A002929017400247B81 /* Amazon_shipper21.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91FFD81E2923C8C00000B3FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91EC0ECC2926930300101329 /* AlertElementView.swift in Sources */,
+				91EC0ED2292694E600101329 /* SuggestedOffertsView.swift in Sources */,
+				91D5965129252B54007C2494 /* CartElementCard.swift in Sources */,
+				91D5964F292521E3007C2494 /* CartList.swift in Sources */,
+				9186C536292E58F000E4848A /* ItemModelJSON.swift in Sources */,
+				9171503B2924D306005DB541 /* DataController.swift in Sources */,
+				917150392924D17D005DB541 /* CoreModels.xcdatamodeld in Sources */,
+				91EC0EDF2926974100101329 /* OffertView.swift in Sources */,
+				91EC0EDD2926970200101329 /* TopOffertView.swift in Sources */,
+				91EC0ECE292693E000101329 /* BestSellerMenView.swift in Sources */,
+				91EC0ED42926953700101329 /* SuggestedElementView.swift in Sources */,
+				911E2B0E292BBA92009701EB /* AmazonItemDB.swift in Sources */,
+				91103A09292910DE00247B81 /* ShipperScene.swift in Sources */,
+				91EC0ED82926966200101329 /* BestSellerWomenView.swift in Sources */,
+				9186C533292D74CD00E4848A /* ItemDetail.swift in Sources */,
+				9129101B292CF04900C83999 /* Search.swift in Sources */,
+				91FFD8282923C8C00000B3FA /* ContentView.swift in Sources */,
+				91FFD8342923D9B90000B3FA /* Cart.swift in Sources */,
+				91D5964D29251CC3007C2494 /* Dashboard.swift in Sources */,
+				91EC0EE12926975D00101329 /* MainScreenView.swift in Sources */,
+				918AF298292536DA00C31A04 /* BuyElementCard.swift in Sources */,
+				918AF2A2292594AB00C31A04 /* SearchObservableObject.swift in Sources */,
+				91FFD8262923C8C00000B3FA /* NC1_Amazon_MobileApp.swift in Sources */,
+				911039CC2928DA8E00247B81 /* CustomColors.swift in Sources */,
+				91EC0ED02926948700101329 /* ExploreMoreView.swift in Sources */,
+				911039CF2928E53500247B81 /* AmazonSeleableItem.swift in Sources */,
+				918AF29E29256AB200C31A04 /* OffertElementCard.swift in Sources */,
+				91EC0ECA2926902700101329 /* CreateAlertView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		91FFD82E2923C8C10000B3FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91FFD82F2923C8C10000B3FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91FFD8312923C8C10000B3FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NC1_Amazon_Mobile/Preview Content\"";
+				DEVELOPMENT_TEAM = 4BNM7WSTN5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.francesco.academy.NC1-Amazon-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91FFD8322923C8C10000B3FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NC1_Amazon_Mobile/Preview Content\"";
+				DEVELOPMENT_TEAM = 4BNM7WSTN5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.francesco.academy.NC1-Amazon-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91FFD81D2923C8C00000B3FA /* Build configuration list for PBXProject "NC1_Amazon_Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FFD82E2923C8C10000B3FA /* Debug */,
+				91FFD82F2923C8C10000B3FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91FFD8302923C8C10000B3FA /* Build configuration list for PBXNativeTarget "NC1_Amazon_Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91FFD8312923C8C10000B3FA /* Debug */,
+				91FFD8322923C8C10000B3FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		917150372924D17D005DB541 /* CoreModels.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				917150382924D17D005DB541 /* CoreModels.xcdatamodel */,
+			);
+			currentVersion = 917150382924D17D005DB541 /* CoreModels.xcdatamodel */;
+			path = CoreModels.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 91FFD81A2923C8C00000B3FA /* Project object */;
+}
